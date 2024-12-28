@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color:  #272b30;
+}
+.nav-bar{
+width: 75%;
+height: 20%;
+  
+background-color: rgb(58, 73, 123) !important;
+}
+img{
+    height: 30vh;
+    object-fit: cover;
+}
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+   color: #09c !important;
+   transition: color 0.5s;
+}
+
+nav {
+    background-color: #09c;
+color: #fff;
+    margin-inline: auto;
+    margin-top: -20px;
+    border-radius: 20px;
+
+}
+.card{
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+    bottom: 0;
+}
+.card:hover{
+    transform: scale(1.1);
+   
+
+}
